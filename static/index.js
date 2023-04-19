@@ -66,7 +66,7 @@ function subtract(num1, num2) {
 function updateScreen (key) {   
     var currentText = $('.calculatorScreen h1').text();
 
-    if (key === "AC") {
+    if (key === "C") {
         $('.calculatorScreen h1').text("0");
     } else if (key === "÷") {
         num1 = parseFloat($('.calculatorScreen h1').text());
